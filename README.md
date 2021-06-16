@@ -18,7 +18,7 @@ Todos los subconjuntos, productos del pre-procesamiento, están dentro de la car
 
 ### Nota
 
-Si desea realizar la verificación de lo hecho en Python puede ver el resumén en pdf "resumen-python.pdf" o bien instalar Anaconda en su máquina y correr el archivo "infografia.ipynb" y darle play en cada celda, después de haber descargado los datsets de google-drive y haberlos puesto en la carpeta "datasets"
+Si desea realizar la verificación de lo hecho en Python puede ver el resumén en pdf "pre-procesamiento.pdf" o bien instalar Anaconda en su máquina y correr el archivo "infografia.ipynb" y darle play en cada celda, después de haber descargado los datsets de google-drive y haberlos puesto en la carpeta "datasets"
 
 ## Procesamiento de datos y prueba de hipotesis
 
@@ -29,3 +29,7 @@ El procesamiento de los datos, como la lectura y la selección de columnas o ele
 Lo aprendido en este curso fue de gran ayuda para mi y muy necesario, pues espero orientar mi carrera (Ingeniería de Sistemas y Computación) en la aplicación y desarrollo de Inteligencia Artificial, rama de mi carrera que tiene como fundamento principal la estadística en la mayoría de sus técnicas como el Machine-Learning, Big Data y Deep Learning.
 
 Att: Rubén Darío Vargas Yandy - estudiante Probabilidad y Estadística (Grupo B)
+
+## Infografia
+
+![alt infografia-completa](https://github.com/ruben4181/infografia-estadistica/blob/master/CoronaVirus%20(1).jpg?raw=true)
