@@ -128,7 +128,7 @@ Una breve explicación de las columnas:
 2020
 - El primer día para los reportes_2021, es decir la primer fila, corresponde al 1 de enero de 2021 y la última fila al 13 de junio de 2021
 
-#### Análisis visual previo de los contagios:
+**Análisis visual previo de los contagios:**
 
 ```{r}
   plot(reportes_antes_vacunacion$nuevos, type="l", main="Reportes diarios de nuevos contagios Covid-19 antes de la vacunación", ylab="Nuevos contagios", xlab="Días transcurridos")
@@ -243,10 +243,11 @@ contagios_antes_28a <- antes_28a$nuevos
 contagios_despues_28a <- despues_28a$nuevos
 ```
 
-#### Análisis visual de los datos
+**Análisis visual de los datos**
+
 
 ```{r}
-  plot(contagios_antes_28a, type="l", main="Contagios 20 días antes del 28 de abril de 2021", xlab="Días transcurridos", ylab="Nuevos contagios")
+plot(contagios_antes_28a, type="l", main="Contagios 20 días antes del 28 de abril de 2021", xlab="Días transcurridos", ylab="Nuevos contagios")
 ```
 
 ```{r}
@@ -304,7 +305,7 @@ muertos_antes_28a <-antes_28a$fallecidos
 muertos_despues_28a <-despues_28a$fallecidos
 ```
 
-#### Análisis visual de los datos
+**Análisis visual de los datos**
 
 ```{r}
 plot(muertos_antes_28a, type="l", main = "Muertos por Covid-19 20 días antes del 28 de abril de 2021", xlab = "Días transcurridos", ylab = "Fallecidos")
