@@ -1,15 +1,31 @@
 # infografia-estadistica
-Respaldo de Infografia hecho en python y haciendo uso de las librerias para Estadistica e Inteligencia Artificial: Pandas, Scikit, NumPy y Matplotlib
+Respaldo de Infografia hecho en Python para el pre-procesamiento de los datos y en R para la busqueda y prueba de hipotesis
 
-## Realizado en Python haciendo uso de Jupyter Notebook para seccionar el codigo
-Tal cual como se hace con R Studio, Jupyter Notebook es un ambiente de programación que permite la sección del codigo y la impresión de charts, Pandas, Scikit y NumPy sirven para el procesamiento de los datos y en ella realicé las pruebas de las hipotesis. Para lo que quería realizar, separación por fechas no sabía como hacerlo con R, por eso decidí hacerlo con Python, pero la sintaxis es muy sencilla y similar, espero no haya ningún problema.
+## Pre-procesamiento en Python
 
-También hay un documento de codigo en formato PDF para que lo pueda ver
+Tal cual como es R-Studio para el lenguaje R, Python tiene un ambiente para ejecutar porciones de codigo asilados y con librerias para el procesamiento de dataframes, y conjuntos de datos, integrada: Jupyter Notebook. Es por esta razón que el pre-procesamiento de los conjuntos de datos originales los he hecho con Pytho en Jupyter, dado que es más sencillo realizar queries para la separación de datasets de acuerdo al tiempo, que fue, en gran medida, lo que separaba las muestras para la prueba de las hipotesis planteadas en el infograma.
 
-Los datasets que usé se encuentran en el siguiente enlace: https://drive.google.com/drive/folders/1TU-1JuXIvto_Np3r0tL_aUXx3YaRRRFe?usp=sharing
+Los datasets originales no pueden ser almacenados en este repositorio, pues pesan más de 100Mb y ese es el limite para archivos en esta plataforma git, es por eso que deben ser descargados por aparte y puestos dentro de la carpeta  "datasets".
 
-Descripcción de los DataSets:
+Los datasets originales que usé se encuentran en el siguiente enlace: https://drive.google.com/drive/folders/1TU-1JuXIvto_Np3r0tL_aUXx3YaRRRFe?usp=sharing
+Los cuales son: 
 
-Casos_positivos_de_COVID-19_en_Colombia.csv -> Fuente: Datos Abiertos Colombia; Casos Positivos de Colombia hasta el 14 de junio de 2021
-reportes_diarios.csv -> Fuente: Twitter del Ministerio de la Salud de Colombia, capturados mediante un robot, que está en el archivo "scrapper.py"
-days.csv -> Fuente: Propia, contiene los días del 15 de junio del 2020 hasta el 13 de junio de 2021,sirve para hacer algunos calculos en los datasets
+- "Casos Positivos Covid-19 en Colombia": fuente - Datos Abiertos Colombia.
+- "days.csv" el conjunto de días transcurridos desde el 15 de junio de 2020 hasta el 13 de junio de 2021
+- "reportes_diarios.csv": fuente - cuenta de Twitter Ministerio de la Salud de Colombia @MinSaludCol, recolectados por el bot "scrapper.py"
+
+Todos los subconjuntos, productos del pre-procesamiento, están dentro de la carpeta "out" de este directorio
+
+### Nota
+
+Si desea realizar la verificación de lo hecho en Python puede ver el resumén en pdf "resumen-python.pdf" o bien instalar Anaconda en su máquina y correr el archivo "infografia.ipynb" y darle play en cada celda, después de haber descargado los datsets de google-drive y haberlos puesto en la carpeta "datasets"
+
+## Procesamiento de datos y prueba de hipotesis
+
+El procesamiento de los datos, como la lectura y la selección de columnas o elementos se hizo en R Markdown, tal cual se realizó en los ejercicios del curso __Probabilidad y Estadística__ así mismo como la validación de hipotesis, el codigo se encuentra de forma detallada en pdf en el archivo "infografia_final.pdf" y el codigo completo para su revisión en el archivo "infografia_final.Rmd" como soporte del codigo en R que solicita en las especificaciones del trabajo final de este curso.
+
+## Conclusiones
+
+Lo aprendido en este curso fue de gran ayuda para mi y muy necesario, pues espero orientar mi carrera (Ingeniería de Sistemas y Computación) en la aplicación y desarrollo de Inteligencia Artificial, rama de mi carrera que tiene como fundamento principal la estadística en la mayoría de sus técnicas como el Machine-Learning, Big Data y Deep Learning.
+
+Att: Rubén Darío Vargas Yandy - estudiante Probabilidad y Estadística (Grupo B)
