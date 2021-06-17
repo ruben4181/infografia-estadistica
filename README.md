@@ -1,5 +1,5 @@
 # infografia-estadistica
-Respaldo de Infografia hecho en Python para el pre-procesamiento de los datos y en R para la busqueda y prueba de hipotesis
+Respaldo de Infografia hecho en Python para el pre-procesamiento de los datos y en R para la busqueda y prueba de hipotesis. Para descargar este repositorio puede irse hasta el botón verde que dice "Code" darle click y después en "Download ZIP" o bien escribir en su terminal de comandos linux "git clone https://github.com/ruben4181/infografia-estadistica.git" y se descargara en una carpeta nueva en el directorio en que este pocisionado su terminal (por defecto la carpeta "home")
 
 ## Pre-procesamiento en Python
 
